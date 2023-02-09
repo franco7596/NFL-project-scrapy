@@ -1,0 +1,1214 @@
+2023-02-08 14:59:13 [scrapy] DEBUG: Crawled (200) <GET https://www.nfl.com/robots.txt> (referer: None)
+2023-02-08 14:59:13 [scrapy] DEBUG: Crawled (200) <GET https://www.nfl.com/teams/> (referer: None)
+2023-02-08 14:59:13 [scrapy] DEBUG: Redirecting (301) to <GET https://www.nfl.com/teams/washington-commanders/roster> from <GET https://www.nfl.com/teams/washington-commanders//roster>
+2023-02-08 14:59:13 [scrapy] DEBUG: Redirecting (301) to <GET https://www.nfl.com/teams/los-angeles-rams/roster> from <GET https://www.nfl.com/teams/los-angeles-rams//roster>
+2023-02-08 14:59:13 [scrapy] DEBUG: Redirecting (301) to <GET https://www.nfl.com/teams/green-bay-packers/roster> from <GET https://www.nfl.com/teams/green-bay-packers//roster>
+2023-02-08 14:59:13 [scrapy] DEBUG: Redirecting (301) to <GET https://www.nfl.com/teams/philadelphia-eagles/roster> from <GET https://www.nfl.com/teams/philadelphia-eagles//roster>
+2023-02-08 14:59:13 [scrapy] DEBUG: Redirecting (301) to <GET https://www.nfl.com/teams/detroit-lions/roster> from <GET https://www.nfl.com/teams/detroit-lions//roster>
+2023-02-08 14:59:13 [scrapy] DEBUG: Redirecting (301) to <GET https://www.nfl.com/teams/san-francisco-49ers/roster> from <GET https://www.nfl.com/teams/san-francisco-49ers//roster>
+2023-02-08 14:59:13 [scrapy] DEBUG: Redirecting (301) to <GET https://www.nfl.com/teams/tampa-bay-buccaneers/roster> from <GET https://www.nfl.com/teams/tampa-bay-buccaneers//roster>
+2023-02-08 14:59:13 [scrapy] DEBUG: Redirecting (301) to <GET https://www.nfl.com/teams/minnesota-vikings/roster> from <GET https://www.nfl.com/teams/minnesota-vikings//roster>
+2023-02-08 14:59:13 [scrapy] DEBUG: Redirecting (301) to <GET https://www.nfl.com/teams/new-york-giants/roster> from <GET https://www.nfl.com/teams/new-york-giants//roster>
+2023-02-08 14:59:13 [scrapy] DEBUG: Redirecting (301) to <GET https://www.nfl.com/teams/dallas-cowboys/roster> from <GET https://www.nfl.com/teams/dallas-cowboys//roster>
+2023-02-08 14:59:13 [scrapy] DEBUG: Redirecting (301) to <GET https://www.nfl.com/teams/chicago-bears/roster> from <GET https://www.nfl.com/teams/chicago-bears//roster>
+2023-02-08 14:59:13 [scrapy] DEBUG: Redirecting (301) to <GET https://www.nfl.com/teams/new-orleans-saints/roster> from <GET https://www.nfl.com/teams/new-orleans-saints//roster>
+2023-02-08 14:59:13 [scrapy] DEBUG: Redirecting (301) to <GET https://www.nfl.com/teams/carolina-panthers/roster> from <GET https://www.nfl.com/teams/carolina-panthers//roster>
+2023-02-08 14:59:13 [scrapy] DEBUG: Redirecting (301) to <GET https://www.nfl.com/teams/seattle-seahawks/roster> from <GET https://www.nfl.com/teams/seattle-seahawks//roster>
+2023-02-08 14:59:13 [scrapy] DEBUG: Redirecting (301) to <GET https://www.nfl.com/teams/atlanta-falcons/roster> from <GET https://www.nfl.com/teams/atlanta-falcons//roster>
+2023-02-08 14:59:13 [scrapy] DEBUG: Redirecting (301) to <GET https://www.nfl.com/teams/arizona-cardinals/roster> from <GET https://www.nfl.com/teams/arizona-cardinals//roster>
+2023-02-08 14:59:13 [scrapy] DEBUG: Redirecting (301) to <GET https://www.nfl.com/teams/pittsburgh-steelers/roster> from <GET https://www.nfl.com/teams/pittsburgh-steelers//roster>
+2023-02-08 14:59:13 [scrapy] DEBUG: Redirecting (301) to <GET https://www.nfl.com/teams/new-york-jets/roster> from <GET https://www.nfl.com/teams/new-york-jets//roster>
+2023-02-08 14:59:13 [scrapy] DEBUG: Redirecting (301) to <GET https://www.nfl.com/teams/tennessee-titans/roster> from <GET https://www.nfl.com/teams/tennessee-titans//roster>
+2023-02-08 14:59:13 [scrapy] DEBUG: Redirecting (301) to <GET https://www.nfl.com/teams/miami-dolphins/roster> from <GET https://www.nfl.com/teams/miami-dolphins//roster>
+2023-02-08 14:59:13 [scrapy] DEBUG: Redirecting (301) to <GET https://www.nfl.com/teams/las-vegas-raiders/roster> from <GET https://www.nfl.com/teams/las-vegas-raiders//roster>
+2023-02-08 14:59:13 [scrapy] DEBUG: Redirecting (301) to <GET https://www.nfl.com/teams/los-angeles-chargers/roster> from <GET https://www.nfl.com/teams/los-angeles-chargers//roster>
+2023-02-08 14:59:13 [scrapy] DEBUG: Redirecting (301) to <GET https://www.nfl.com/teams/new-england-patriots/roster> from <GET https://www.nfl.com/teams/new-england-patriots//roster>
+2023-02-08 14:59:13 [scrapy] DEBUG: Redirecting (301) to <GET https://www.nfl.com/teams/kansas-city-chiefs/roster> from <GET https://www.nfl.com/teams/kansas-city-chiefs//roster>
+2023-02-08 14:59:13 [scrapy] DEBUG: Crawled (200) <GET https://www.nfl.com/teams/los-angeles-rams/roster> (referer: https://www.nfl.com/teams/)
+2023-02-08 14:59:13 [scrapy] DEBUG: Crawled (200) <GET https://www.nfl.com/teams/washington-commanders/roster> (referer: https://www.nfl.com/teams/)
+2023-02-08 14:59:13 [scrapy] DEBUG: Crawled (200) <GET https://www.nfl.com/teams/green-bay-packers/roster> (referer: https://www.nfl.com/teams/)
+2023-02-08 14:59:13 [scrapy] DEBUG: Crawled (200) <GET https://www.nfl.com/teams/philadelphia-eagles/roster> (referer: https://www.nfl.com/teams/)
+2023-02-08 14:59:13 [scrapy] DEBUG: Crawled (200) <GET https://www.nfl.com/teams/detroit-lions/roster> (referer: https://www.nfl.com/teams/)
+2023-02-08 14:59:13 [scrapy] DEBUG: Crawled (200) <GET https://www.nfl.com/teams/tampa-bay-buccaneers/roster> (referer: https://www.nfl.com/teams/)
+2023-02-08 14:59:13 [scrapy] DEBUG: Crawled (200) <GET https://www.nfl.com/teams/dallas-cowboys/roster> (referer: https://www.nfl.com/teams/)
+2023-02-08 14:59:13 [scrapy] DEBUG: Crawled (200) <GET https://www.nfl.com/teams/minnesota-vikings/roster> (referer: https://www.nfl.com/teams/)
+2023-02-08 14:59:13 [scrapy] DEBUG: Crawled (200) <GET https://www.nfl.com/teams/new-york-giants/roster> (referer: https://www.nfl.com/teams/)
+2023-02-08 14:59:13 [scrapy] DEBUG: Crawled (200) <GET https://www.nfl.com/teams/chicago-bears/roster> (referer: https://www.nfl.com/teams/)
+2023-02-08 14:59:13 [scrapy] DEBUG: Crawled (200) <GET https://www.nfl.com/teams/carolina-panthers/roster> (referer: https://www.nfl.com/teams/)
+2023-02-08 14:59:13 [scrapy] DEBUG: Crawled (200) <GET https://www.nfl.com/teams/atlanta-falcons/roster> (referer: https://www.nfl.com/teams/)
+2023-02-08 14:59:13 [scrapy] DEBUG: Crawled (200) <GET https://www.nfl.com/teams/new-york-jets/roster> (referer: https://www.nfl.com/teams/)
+2023-02-08 14:59:13 [scrapy] DEBUG: Crawled (200) <GET https://www.nfl.com/teams/new-orleans-saints/roster> (referer: https://www.nfl.com/teams/)
+2023-02-08 14:59:13 [scrapy] DEBUG: Crawled (200) <GET https://www.nfl.com/teams/seattle-seahawks/roster> (referer: https://www.nfl.com/teams/)
+2023-02-08 14:59:13 [scrapy] DEBUG: Crawled (200) <GET https://www.nfl.com/teams/arizona-cardinals/roster> (referer: https://www.nfl.com/teams/)
+2023-02-08 14:59:13 [scrapy] DEBUG: Crawled (200) <GET https://www.nfl.com/teams/pittsburgh-steelers/roster> (referer: https://www.nfl.com/teams/)
+2023-02-08 14:59:13 [scrapy] DEBUG: Crawled (200) <GET https://www.nfl.com/teams/tennessee-titans/roster> (referer: https://www.nfl.com/teams/)
+2023-02-08 14:59:13 [scrapy] DEBUG: Crawled (200) <GET https://www.nfl.com/teams/miami-dolphins/roster> (referer: https://www.nfl.com/teams/)
+2023-02-08 14:59:13 [scrapy] DEBUG: Redirecting (301) to <GET https://www.nfl.com/teams/jacksonville-jaguars/roster> from <GET https://www.nfl.com/teams/jacksonville-jaguars//roster>
+2023-02-08 14:59:13 [scrapy] DEBUG: Crawled (200) <GET https://www.nfl.com/teams/new-england-patriots/roster> (referer: https://www.nfl.com/teams/)
+2023-02-08 14:59:13 [scrapy] DEBUG: Crawled (200) <GET https://www.nfl.com/teams/las-vegas-raiders/roster> (referer: https://www.nfl.com/teams/)
+2023-02-08 14:59:14 [scrapy] DEBUG: Crawled (200) <GET https://www.nfl.com/teams/los-angeles-chargers/roster> (referer: https://www.nfl.com/teams/)
+2023-02-08 14:59:14 [scrapy] DEBUG: Crawled (200) <GET https://www.nfl.com/teams/kansas-city-chiefs/roster> (referer: https://www.nfl.com/teams/)
+2023-02-08 14:59:14 [scrapy] ERROR: Spider error processing <GET https://www.nfl.com/teams/los-angeles-rams/roster> (referer: https://www.nfl.com/teams/)
+Traceback (most recent call last):
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\venv\lib\site-packages\scrapy\utils\defer.py", line 257, in iter_errback
+    yield next(it)
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\venv\lib\site-packages\scrapy\utils\python.py", line 312, in __next__
+    return next(self.data)
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\venv\lib\site-packages\scrapy\utils\python.py", line 312, in __next__
+    return next(self.data)
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\venv\lib\site-packages\scrapy\core\spidermw.py", line 104, in process_sync
+    for r in iterable:
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\venv\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 28, in <genexpr>
+    return (r for r in result or () if self._filter(r, spider))
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\venv\lib\site-packages\scrapy\core\spidermw.py", line 104, in process_sync
+    for r in iterable:
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\venv\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 353, in <genexpr>
+    return (self._set_referer(r, response) for r in result or ())
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\venv\lib\site-packages\scrapy\core\spidermw.py", line 104, in process_sync
+    for r in iterable:
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\venv\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 27, in <genexpr>
+    return (r for r in result or () if self._filter(r, spider))
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\venv\lib\site-packages\scrapy\core\spidermw.py", line 104, in process_sync
+    for r in iterable:
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\venv\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 31, in <genexpr>
+    return (r for r in result or () if self._filter(r, response, spider))
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\venv\lib\site-packages\scrapy\core\spidermw.py", line 104, in process_sync
+    for r in iterable:
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\NFLScrapy\NFLScrapy\spiders\Roster_scrapy.py", line 30, in parses_roster
+    yield response.follow(playersLink[i], callback=self.parses_player, cb_kwargs= {playerName , playerNumber, playerPosition, playerStatus, nameTeam})
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\venv\lib\site-packages\scrapy\http\response\text.py", line 186, in follow
+    return super().follow(
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\venv\lib\site-packages\scrapy\http\response\__init__.py", line 186, in follow
+    return Request(
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\venv\lib\site-packages\scrapy\http\request\__init__.py", line 113, in __init__
+    self._cb_kwargs = dict(cb_kwargs) if cb_kwargs else None
+ValueError: dictionary update sequence element #0 has length 12; 2 is required
+2023-02-08 14:59:14 [scrapy] ERROR: Spider error processing <GET https://www.nfl.com/teams/washington-commanders/roster> (referer: https://www.nfl.com/teams/)
+Traceback (most recent call last):
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\venv\lib\site-packages\scrapy\utils\defer.py", line 257, in iter_errback
+    yield next(it)
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\venv\lib\site-packages\scrapy\utils\python.py", line 312, in __next__
+    return next(self.data)
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\venv\lib\site-packages\scrapy\utils\python.py", line 312, in __next__
+    return next(self.data)
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\venv\lib\site-packages\scrapy\core\spidermw.py", line 104, in process_sync
+    for r in iterable:
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\venv\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 28, in <genexpr>
+    return (r for r in result or () if self._filter(r, spider))
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\venv\lib\site-packages\scrapy\core\spidermw.py", line 104, in process_sync
+    for r in iterable:
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\venv\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 353, in <genexpr>
+    return (self._set_referer(r, response) for r in result or ())
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\venv\lib\site-packages\scrapy\core\spidermw.py", line 104, in process_sync
+    for r in iterable:
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\venv\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 27, in <genexpr>
+    return (r for r in result or () if self._filter(r, spider))
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\venv\lib\site-packages\scrapy\core\spidermw.py", line 104, in process_sync
+    for r in iterable:
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\venv\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 31, in <genexpr>
+    return (r for r in result or () if self._filter(r, response, spider))
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\venv\lib\site-packages\scrapy\core\spidermw.py", line 104, in process_sync
+    for r in iterable:
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\NFLScrapy\NFLScrapy\spiders\Roster_scrapy.py", line 30, in parses_roster
+    yield response.follow(playersLink[i], callback=self.parses_player, cb_kwargs= {playerName , playerNumber, playerPosition, playerStatus, nameTeam})
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\venv\lib\site-packages\scrapy\http\response\text.py", line 186, in follow
+    return super().follow(
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\venv\lib\site-packages\scrapy\http\response\__init__.py", line 186, in follow
+    return Request(
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\venv\lib\site-packages\scrapy\http\request\__init__.py", line 113, in __init__
+    self._cb_kwargs = dict(cb_kwargs) if cb_kwargs else None
+ValueError: dictionary update sequence element #2 has length 21; 2 is required
+2023-02-08 14:59:14 [scrapy] ERROR: Spider error processing <GET https://www.nfl.com/teams/green-bay-packers/roster> (referer: https://www.nfl.com/teams/)
+Traceback (most recent call last):
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\venv\lib\site-packages\scrapy\utils\defer.py", line 257, in iter_errback
+    yield next(it)
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\venv\lib\site-packages\scrapy\utils\python.py", line 312, in __next__
+    return next(self.data)
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\venv\lib\site-packages\scrapy\utils\python.py", line 312, in __next__
+    return next(self.data)
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\venv\lib\site-packages\scrapy\core\spidermw.py", line 104, in process_sync
+    for r in iterable:
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\venv\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 28, in <genexpr>
+    return (r for r in result or () if self._filter(r, spider))
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\venv\lib\site-packages\scrapy\core\spidermw.py", line 104, in process_sync
+    for r in iterable:
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\venv\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 353, in <genexpr>
+    return (self._set_referer(r, response) for r in result or ())
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\venv\lib\site-packages\scrapy\core\spidermw.py", line 104, in process_sync
+    for r in iterable:
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\venv\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 27, in <genexpr>
+    return (r for r in result or () if self._filter(r, spider))
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\venv\lib\site-packages\scrapy\core\spidermw.py", line 104, in process_sync
+    for r in iterable:
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\venv\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 31, in <genexpr>
+    return (r for r in result or () if self._filter(r, response, spider))
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\venv\lib\site-packages\scrapy\core\spidermw.py", line 104, in process_sync
+    for r in iterable:
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\NFLScrapy\NFLScrapy\spiders\Roster_scrapy.py", line 30, in parses_roster
+    yield response.follow(playersLink[i], callback=self.parses_player, cb_kwargs= {playerName , playerNumber, playerPosition, playerStatus, nameTeam})
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\venv\lib\site-packages\scrapy\http\response\text.py", line 186, in follow
+    return super().follow(
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\venv\lib\site-packages\scrapy\http\response\__init__.py", line 186, in follow
+    return Request(
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\venv\lib\site-packages\scrapy\http\request\__init__.py", line 113, in __init__
+    self._cb_kwargs = dict(cb_kwargs) if cb_kwargs else None
+ValueError: dictionary update sequence element #0 has length 15; 2 is required
+2023-02-08 14:59:14 [scrapy] ERROR: Spider error processing <GET https://www.nfl.com/teams/philadelphia-eagles/roster> (referer: https://www.nfl.com/teams/)
+Traceback (most recent call last):
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\venv\lib\site-packages\scrapy\utils\defer.py", line 257, in iter_errback
+    yield next(it)
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\venv\lib\site-packages\scrapy\utils\python.py", line 312, in __next__
+    return next(self.data)
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\venv\lib\site-packages\scrapy\utils\python.py", line 312, in __next__
+    return next(self.data)
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\venv\lib\site-packages\scrapy\core\spidermw.py", line 104, in process_sync
+    for r in iterable:
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\venv\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 28, in <genexpr>
+    return (r for r in result or () if self._filter(r, spider))
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\venv\lib\site-packages\scrapy\core\spidermw.py", line 104, in process_sync
+    for r in iterable:
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\venv\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 353, in <genexpr>
+    return (self._set_referer(r, response) for r in result or ())
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\venv\lib\site-packages\scrapy\core\spidermw.py", line 104, in process_sync
+    for r in iterable:
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\venv\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 27, in <genexpr>
+    return (r for r in result or () if self._filter(r, spider))
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\venv\lib\site-packages\scrapy\core\spidermw.py", line 104, in process_sync
+    for r in iterable:
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\venv\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 31, in <genexpr>
+    return (r for r in result or () if self._filter(r, response, spider))
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\venv\lib\site-packages\scrapy\core\spidermw.py", line 104, in process_sync
+    for r in iterable:
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\NFLScrapy\NFLScrapy\spiders\Roster_scrapy.py", line 30, in parses_roster
+    yield response.follow(playersLink[i], callback=self.parses_player, cb_kwargs= {playerName , playerNumber, playerPosition, playerStatus, nameTeam})
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\venv\lib\site-packages\scrapy\http\response\text.py", line 186, in follow
+    return super().follow(
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\venv\lib\site-packages\scrapy\http\response\__init__.py", line 186, in follow
+    return Request(
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\venv\lib\site-packages\scrapy\http\request\__init__.py", line 113, in __init__
+    self._cb_kwargs = dict(cb_kwargs) if cb_kwargs else None
+ValueError: dictionary update sequence element #0 has length 11; 2 is required
+2023-02-08 14:59:14 [scrapy] ERROR: Spider error processing <GET https://www.nfl.com/teams/detroit-lions/roster> (referer: https://www.nfl.com/teams/)
+Traceback (most recent call last):
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\venv\lib\site-packages\scrapy\utils\defer.py", line 257, in iter_errback
+    yield next(it)
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\venv\lib\site-packages\scrapy\utils\python.py", line 312, in __next__
+    return next(self.data)
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\venv\lib\site-packages\scrapy\utils\python.py", line 312, in __next__
+    return next(self.data)
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\venv\lib\site-packages\scrapy\core\spidermw.py", line 104, in process_sync
+    for r in iterable:
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\venv\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 28, in <genexpr>
+    return (r for r in result or () if self._filter(r, spider))
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\venv\lib\site-packages\scrapy\core\spidermw.py", line 104, in process_sync
+    for r in iterable:
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\venv\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 353, in <genexpr>
+    return (self._set_referer(r, response) for r in result or ())
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\venv\lib\site-packages\scrapy\core\spidermw.py", line 104, in process_sync
+    for r in iterable:
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\venv\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 27, in <genexpr>
+    return (r for r in result or () if self._filter(r, spider))
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\venv\lib\site-packages\scrapy\core\spidermw.py", line 104, in process_sync
+    for r in iterable:
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\venv\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 31, in <genexpr>
+    return (r for r in result or () if self._filter(r, response, spider))
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\venv\lib\site-packages\scrapy\core\spidermw.py", line 104, in process_sync
+    for r in iterable:
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\NFLScrapy\NFLScrapy\spiders\Roster_scrapy.py", line 30, in parses_roster
+    yield response.follow(playersLink[i], callback=self.parses_player, cb_kwargs= {playerName , playerNumber, playerPosition, playerStatus, nameTeam})
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\venv\lib\site-packages\scrapy\http\response\text.py", line 186, in follow
+    return super().follow(
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\venv\lib\site-packages\scrapy\http\response\__init__.py", line 186, in follow
+    return Request(
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\venv\lib\site-packages\scrapy\http\request\__init__.py", line 113, in __init__
+    self._cb_kwargs = dict(cb_kwargs) if cb_kwargs else None
+ValueError: dictionary update sequence element #1 has length 13; 2 is required
+2023-02-08 14:59:14 [scrapy] ERROR: Spider error processing <GET https://www.nfl.com/teams/tampa-bay-buccaneers/roster> (referer: https://www.nfl.com/teams/)
+Traceback (most recent call last):
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\venv\lib\site-packages\scrapy\utils\defer.py", line 257, in iter_errback
+    yield next(it)
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\venv\lib\site-packages\scrapy\utils\python.py", line 312, in __next__
+    return next(self.data)
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\venv\lib\site-packages\scrapy\utils\python.py", line 312, in __next__
+    return next(self.data)
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\venv\lib\site-packages\scrapy\core\spidermw.py", line 104, in process_sync
+    for r in iterable:
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\venv\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 28, in <genexpr>
+    return (r for r in result or () if self._filter(r, spider))
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\venv\lib\site-packages\scrapy\core\spidermw.py", line 104, in process_sync
+    for r in iterable:
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\venv\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 353, in <genexpr>
+    return (self._set_referer(r, response) for r in result or ())
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\venv\lib\site-packages\scrapy\core\spidermw.py", line 104, in process_sync
+    for r in iterable:
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\venv\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 27, in <genexpr>
+    return (r for r in result or () if self._filter(r, spider))
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\venv\lib\site-packages\scrapy\core\spidermw.py", line 104, in process_sync
+    for r in iterable:
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\venv\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 31, in <genexpr>
+    return (r for r in result or () if self._filter(r, response, spider))
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\venv\lib\site-packages\scrapy\core\spidermw.py", line 104, in process_sync
+    for r in iterable:
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\NFLScrapy\NFLScrapy\spiders\Roster_scrapy.py", line 30, in parses_roster
+    yield response.follow(playersLink[i], callback=self.parses_player, cb_kwargs= {playerName , playerNumber, playerPosition, playerStatus, nameTeam})
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\venv\lib\site-packages\scrapy\http\response\text.py", line 186, in follow
+    return super().follow(
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\venv\lib\site-packages\scrapy\http\response\__init__.py", line 186, in follow
+    return Request(
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\venv\lib\site-packages\scrapy\http\request\__init__.py", line 113, in __init__
+    self._cb_kwargs = dict(cb_kwargs) if cb_kwargs else None
+ValueError: dictionary update sequence element #0 has length 3; 2 is required
+2023-02-08 14:59:14 [scrapy] ERROR: Spider error processing <GET https://www.nfl.com/teams/dallas-cowboys/roster> (referer: https://www.nfl.com/teams/)
+Traceback (most recent call last):
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\venv\lib\site-packages\scrapy\utils\defer.py", line 257, in iter_errback
+    yield next(it)
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\venv\lib\site-packages\scrapy\utils\python.py", line 312, in __next__
+    return next(self.data)
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\venv\lib\site-packages\scrapy\utils\python.py", line 312, in __next__
+    return next(self.data)
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\venv\lib\site-packages\scrapy\core\spidermw.py", line 104, in process_sync
+    for r in iterable:
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\venv\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 28, in <genexpr>
+    return (r for r in result or () if self._filter(r, spider))
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\venv\lib\site-packages\scrapy\core\spidermw.py", line 104, in process_sync
+    for r in iterable:
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\venv\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 353, in <genexpr>
+    return (self._set_referer(r, response) for r in result or ())
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\venv\lib\site-packages\scrapy\core\spidermw.py", line 104, in process_sync
+    for r in iterable:
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\venv\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 27, in <genexpr>
+    return (r for r in result or () if self._filter(r, spider))
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\venv\lib\site-packages\scrapy\core\spidermw.py", line 104, in process_sync
+    for r in iterable:
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\venv\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 31, in <genexpr>
+    return (r for r in result or () if self._filter(r, response, spider))
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\venv\lib\site-packages\scrapy\core\spidermw.py", line 104, in process_sync
+    for r in iterable:
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\NFLScrapy\NFLScrapy\spiders\Roster_scrapy.py", line 30, in parses_roster
+    yield response.follow(playersLink[i], callback=self.parses_player, cb_kwargs= {playerName , playerNumber, playerPosition, playerStatus, nameTeam})
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\venv\lib\site-packages\scrapy\http\response\text.py", line 186, in follow
+    return super().follow(
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\venv\lib\site-packages\scrapy\http\response\__init__.py", line 186, in follow
+    return Request(
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\venv\lib\site-packages\scrapy\http\request\__init__.py", line 113, in __init__
+    self._cb_kwargs = dict(cb_kwargs) if cb_kwargs else None
+ValueError: dictionary update sequence element #1 has length 3; 2 is required
+2023-02-08 14:59:14 [scrapy] ERROR: Spider error processing <GET https://www.nfl.com/teams/minnesota-vikings/roster> (referer: https://www.nfl.com/teams/)
+Traceback (most recent call last):
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\venv\lib\site-packages\scrapy\utils\defer.py", line 257, in iter_errback
+    yield next(it)
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\venv\lib\site-packages\scrapy\utils\python.py", line 312, in __next__
+    return next(self.data)
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\venv\lib\site-packages\scrapy\utils\python.py", line 312, in __next__
+    return next(self.data)
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\venv\lib\site-packages\scrapy\core\spidermw.py", line 104, in process_sync
+    for r in iterable:
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\venv\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 28, in <genexpr>
+    return (r for r in result or () if self._filter(r, spider))
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\venv\lib\site-packages\scrapy\core\spidermw.py", line 104, in process_sync
+    for r in iterable:
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\venv\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 353, in <genexpr>
+    return (self._set_referer(r, response) for r in result or ())
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\venv\lib\site-packages\scrapy\core\spidermw.py", line 104, in process_sync
+    for r in iterable:
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\venv\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 27, in <genexpr>
+    return (r for r in result or () if self._filter(r, spider))
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\venv\lib\site-packages\scrapy\core\spidermw.py", line 104, in process_sync
+    for r in iterable:
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\venv\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 31, in <genexpr>
+    return (r for r in result or () if self._filter(r, response, spider))
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\venv\lib\site-packages\scrapy\core\spidermw.py", line 104, in process_sync
+    for r in iterable:
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\NFLScrapy\NFLScrapy\spiders\Roster_scrapy.py", line 30, in parses_roster
+    yield response.follow(playersLink[i], callback=self.parses_player, cb_kwargs= {playerName , playerNumber, playerPosition, playerStatus, nameTeam})
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\venv\lib\site-packages\scrapy\http\response\text.py", line 186, in follow
+    return super().follow(
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\venv\lib\site-packages\scrapy\http\response\__init__.py", line 186, in follow
+    return Request(
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\venv\lib\site-packages\scrapy\http\request\__init__.py", line 113, in __init__
+    self._cb_kwargs = dict(cb_kwargs) if cb_kwargs else None
+ValueError: dictionary update sequence element #0 has length 17; 2 is required
+2023-02-08 14:59:14 [scrapy] ERROR: Spider error processing <GET https://www.nfl.com/teams/new-york-giants/roster> (referer: https://www.nfl.com/teams/)
+Traceback (most recent call last):
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\venv\lib\site-packages\scrapy\utils\defer.py", line 257, in iter_errback
+    yield next(it)
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\venv\lib\site-packages\scrapy\utils\python.py", line 312, in __next__
+    return next(self.data)
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\venv\lib\site-packages\scrapy\utils\python.py", line 312, in __next__
+    return next(self.data)
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\venv\lib\site-packages\scrapy\core\spidermw.py", line 104, in process_sync
+    for r in iterable:
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\venv\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 28, in <genexpr>
+    return (r for r in result or () if self._filter(r, spider))
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\venv\lib\site-packages\scrapy\core\spidermw.py", line 104, in process_sync
+    for r in iterable:
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\venv\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 353, in <genexpr>
+    return (self._set_referer(r, response) for r in result or ())
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\venv\lib\site-packages\scrapy\core\spidermw.py", line 104, in process_sync
+    for r in iterable:
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\venv\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 27, in <genexpr>
+    return (r for r in result or () if self._filter(r, spider))
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\venv\lib\site-packages\scrapy\core\spidermw.py", line 104, in process_sync
+    for r in iterable:
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\venv\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 31, in <genexpr>
+    return (r for r in result or () if self._filter(r, response, spider))
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\venv\lib\site-packages\scrapy\core\spidermw.py", line 104, in process_sync
+    for r in iterable:
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\NFLScrapy\NFLScrapy\spiders\Roster_scrapy.py", line 30, in parses_roster
+    yield response.follow(playersLink[i], callback=self.parses_player, cb_kwargs= {playerName , playerNumber, playerPosition, playerStatus, nameTeam})
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\venv\lib\site-packages\scrapy\http\response\text.py", line 186, in follow
+    return super().follow(
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\venv\lib\site-packages\scrapy\http\response\__init__.py", line 186, in follow
+    return Request(
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\venv\lib\site-packages\scrapy\http\request\__init__.py", line 113, in __init__
+    self._cb_kwargs = dict(cb_kwargs) if cb_kwargs else None
+ValueError: dictionary update sequence element #2 has length 15; 2 is required
+2023-02-08 14:59:14 [scrapy] DEBUG: Redirecting (301) to <GET https://www.nfl.com/teams/denver-broncos/roster> from <GET https://www.nfl.com/teams/denver-broncos//roster>
+2023-02-08 14:59:14 [scrapy] DEBUG: Redirecting (301) to <GET https://www.nfl.com/teams/cleveland-browns/roster> from <GET https://www.nfl.com/teams/cleveland-browns//roster>
+2023-02-08 14:59:14 [scrapy] DEBUG: Redirecting (301) to <GET https://www.nfl.com/teams/buffalo-bills/roster> from <GET https://www.nfl.com/teams/buffalo-bills//roster>
+2023-02-08 14:59:14 [scrapy] DEBUG: Redirecting (301) to <GET https://www.nfl.com/teams/baltimore-ravens/roster> from <GET https://www.nfl.com/teams/baltimore-ravens//roster>
+2023-02-08 14:59:14 [scrapy] ERROR: Spider error processing <GET https://www.nfl.com/teams/chicago-bears/roster> (referer: https://www.nfl.com/teams/)
+Traceback (most recent call last):
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\venv\lib\site-packages\scrapy\utils\defer.py", line 257, in iter_errback
+    yield next(it)
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\venv\lib\site-packages\scrapy\utils\python.py", line 312, in __next__
+    return next(self.data)
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\venv\lib\site-packages\scrapy\utils\python.py", line 312, in __next__
+    return next(self.data)
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\venv\lib\site-packages\scrapy\core\spidermw.py", line 104, in process_sync
+    for r in iterable:
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\venv\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 28, in <genexpr>
+    return (r for r in result or () if self._filter(r, spider))
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\venv\lib\site-packages\scrapy\core\spidermw.py", line 104, in process_sync
+    for r in iterable:
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\venv\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 353, in <genexpr>
+    return (self._set_referer(r, response) for r in result or ())
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\venv\lib\site-packages\scrapy\core\spidermw.py", line 104, in process_sync
+    for r in iterable:
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\venv\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 27, in <genexpr>
+    return (r for r in result or () if self._filter(r, spider))
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\venv\lib\site-packages\scrapy\core\spidermw.py", line 104, in process_sync
+    for r in iterable:
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\venv\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 31, in <genexpr>
+    return (r for r in result or () if self._filter(r, response, spider))
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\venv\lib\site-packages\scrapy\core\spidermw.py", line 104, in process_sync
+    for r in iterable:
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\NFLScrapy\NFLScrapy\spiders\Roster_scrapy.py", line 30, in parses_roster
+    yield response.follow(playersLink[i], callback=self.parses_player, cb_kwargs= {playerName , playerNumber, playerPosition, playerStatus, nameTeam})
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\venv\lib\site-packages\scrapy\http\response\text.py", line 186, in follow
+    return super().follow(
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\venv\lib\site-packages\scrapy\http\response\__init__.py", line 186, in follow
+    return Request(
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\venv\lib\site-packages\scrapy\http\request\__init__.py", line 113, in __init__
+    self._cb_kwargs = dict(cb_kwargs) if cb_kwargs else None
+ValueError: dictionary update sequence element #1 has length 13; 2 is required
+2023-02-08 14:59:14 [scrapy] ERROR: Spider error processing <GET https://www.nfl.com/teams/carolina-panthers/roster> (referer: https://www.nfl.com/teams/)
+Traceback (most recent call last):
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\venv\lib\site-packages\scrapy\utils\defer.py", line 257, in iter_errback
+    yield next(it)
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\venv\lib\site-packages\scrapy\utils\python.py", line 312, in __next__
+    return next(self.data)
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\venv\lib\site-packages\scrapy\utils\python.py", line 312, in __next__
+    return next(self.data)
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\venv\lib\site-packages\scrapy\core\spidermw.py", line 104, in process_sync
+    for r in iterable:
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\venv\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 28, in <genexpr>
+    return (r for r in result or () if self._filter(r, spider))
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\venv\lib\site-packages\scrapy\core\spidermw.py", line 104, in process_sync
+    for r in iterable:
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\venv\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 353, in <genexpr>
+    return (self._set_referer(r, response) for r in result or ())
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\venv\lib\site-packages\scrapy\core\spidermw.py", line 104, in process_sync
+    for r in iterable:
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\venv\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 27, in <genexpr>
+    return (r for r in result or () if self._filter(r, spider))
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\venv\lib\site-packages\scrapy\core\spidermw.py", line 104, in process_sync
+    for r in iterable:
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\venv\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 31, in <genexpr>
+    return (r for r in result or () if self._filter(r, response, spider))
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\venv\lib\site-packages\scrapy\core\spidermw.py", line 104, in process_sync
+    for r in iterable:
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\NFLScrapy\NFLScrapy\spiders\Roster_scrapy.py", line 30, in parses_roster
+    yield response.follow(playersLink[i], callback=self.parses_player, cb_kwargs= {playerName , playerNumber, playerPosition, playerStatus, nameTeam})
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\venv\lib\site-packages\scrapy\http\response\text.py", line 186, in follow
+    return super().follow(
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\venv\lib\site-packages\scrapy\http\response\__init__.py", line 186, in follow
+    return Request(
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\venv\lib\site-packages\scrapy\http\request\__init__.py", line 113, in __init__
+    self._cb_kwargs = dict(cb_kwargs) if cb_kwargs else None
+ValueError: dictionary update sequence element #1 has length 17; 2 is required
+2023-02-08 14:59:14 [scrapy] ERROR: Spider error processing <GET https://www.nfl.com/teams/atlanta-falcons/roster> (referer: https://www.nfl.com/teams/)
+Traceback (most recent call last):
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\venv\lib\site-packages\scrapy\utils\defer.py", line 257, in iter_errback
+    yield next(it)
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\venv\lib\site-packages\scrapy\utils\python.py", line 312, in __next__
+    return next(self.data)
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\venv\lib\site-packages\scrapy\utils\python.py", line 312, in __next__
+    return next(self.data)
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\venv\lib\site-packages\scrapy\core\spidermw.py", line 104, in process_sync
+    for r in iterable:
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\venv\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 28, in <genexpr>
+    return (r for r in result or () if self._filter(r, spider))
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\venv\lib\site-packages\scrapy\core\spidermw.py", line 104, in process_sync
+    for r in iterable:
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\venv\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 353, in <genexpr>
+    return (self._set_referer(r, response) for r in result or ())
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\venv\lib\site-packages\scrapy\core\spidermw.py", line 104, in process_sync
+    for r in iterable:
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\venv\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 27, in <genexpr>
+    return (r for r in result or () if self._filter(r, spider))
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\venv\lib\site-packages\scrapy\core\spidermw.py", line 104, in process_sync
+    for r in iterable:
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\venv\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 31, in <genexpr>
+    return (r for r in result or () if self._filter(r, response, spider))
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\venv\lib\site-packages\scrapy\core\spidermw.py", line 104, in process_sync
+    for r in iterable:
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\NFLScrapy\NFLScrapy\spiders\Roster_scrapy.py", line 30, in parses_roster
+    yield response.follow(playersLink[i], callback=self.parses_player, cb_kwargs= {playerName , playerNumber, playerPosition, playerStatus, nameTeam})
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\venv\lib\site-packages\scrapy\http\response\text.py", line 186, in follow
+    return super().follow(
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\venv\lib\site-packages\scrapy\http\response\__init__.py", line 186, in follow
+    return Request(
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\venv\lib\site-packages\scrapy\http\request\__init__.py", line 113, in __init__
+    self._cb_kwargs = dict(cb_kwargs) if cb_kwargs else None
+ValueError: dictionary update sequence element #0 has length 15; 2 is required
+2023-02-08 14:59:14 [scrapy] ERROR: Spider error processing <GET https://www.nfl.com/teams/new-york-jets/roster> (referer: https://www.nfl.com/teams/)
+Traceback (most recent call last):
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\venv\lib\site-packages\scrapy\utils\defer.py", line 257, in iter_errback
+    yield next(it)
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\venv\lib\site-packages\scrapy\utils\python.py", line 312, in __next__
+    return next(self.data)
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\venv\lib\site-packages\scrapy\utils\python.py", line 312, in __next__
+    return next(self.data)
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\venv\lib\site-packages\scrapy\core\spidermw.py", line 104, in process_sync
+    for r in iterable:
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\venv\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 28, in <genexpr>
+    return (r for r in result or () if self._filter(r, spider))
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\venv\lib\site-packages\scrapy\core\spidermw.py", line 104, in process_sync
+    for r in iterable:
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\venv\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 353, in <genexpr>
+    return (self._set_referer(r, response) for r in result or ())
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\venv\lib\site-packages\scrapy\core\spidermw.py", line 104, in process_sync
+    for r in iterable:
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\venv\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 27, in <genexpr>
+    return (r for r in result or () if self._filter(r, spider))
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\venv\lib\site-packages\scrapy\core\spidermw.py", line 104, in process_sync
+    for r in iterable:
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\venv\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 31, in <genexpr>
+    return (r for r in result or () if self._filter(r, response, spider))
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\venv\lib\site-packages\scrapy\core\spidermw.py", line 104, in process_sync
+    for r in iterable:
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\NFLScrapy\NFLScrapy\spiders\Roster_scrapy.py", line 30, in parses_roster
+    yield response.follow(playersLink[i], callback=self.parses_player, cb_kwargs= {playerName , playerNumber, playerPosition, playerStatus, nameTeam})
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\venv\lib\site-packages\scrapy\http\response\text.py", line 186, in follow
+    return super().follow(
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\venv\lib\site-packages\scrapy\http\response\__init__.py", line 186, in follow
+    return Request(
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\venv\lib\site-packages\scrapy\http\request\__init__.py", line 113, in __init__
+    self._cb_kwargs = dict(cb_kwargs) if cb_kwargs else None
+ValueError: dictionary update sequence element #2 has length 12; 2 is required
+2023-02-08 14:59:14 [scrapy] ERROR: Spider error processing <GET https://www.nfl.com/teams/new-orleans-saints/roster> (referer: https://www.nfl.com/teams/)
+Traceback (most recent call last):
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\venv\lib\site-packages\scrapy\utils\defer.py", line 257, in iter_errback
+    yield next(it)
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\venv\lib\site-packages\scrapy\utils\python.py", line 312, in __next__
+    return next(self.data)
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\venv\lib\site-packages\scrapy\utils\python.py", line 312, in __next__
+    return next(self.data)
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\venv\lib\site-packages\scrapy\core\spidermw.py", line 104, in process_sync
+    for r in iterable:
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\venv\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 28, in <genexpr>
+    return (r for r in result or () if self._filter(r, spider))
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\venv\lib\site-packages\scrapy\core\spidermw.py", line 104, in process_sync
+    for r in iterable:
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\venv\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 353, in <genexpr>
+    return (self._set_referer(r, response) for r in result or ())
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\venv\lib\site-packages\scrapy\core\spidermw.py", line 104, in process_sync
+    for r in iterable:
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\venv\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 27, in <genexpr>
+    return (r for r in result or () if self._filter(r, spider))
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\venv\lib\site-packages\scrapy\core\spidermw.py", line 104, in process_sync
+    for r in iterable:
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\venv\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 31, in <genexpr>
+    return (r for r in result or () if self._filter(r, response, spider))
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\venv\lib\site-packages\scrapy\core\spidermw.py", line 104, in process_sync
+    for r in iterable:
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\NFLScrapy\NFLScrapy\spiders\Roster_scrapy.py", line 30, in parses_roster
+    yield response.follow(playersLink[i], callback=self.parses_player, cb_kwargs= {playerName , playerNumber, playerPosition, playerStatus, nameTeam})
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\venv\lib\site-packages\scrapy\http\response\text.py", line 186, in follow
+    return super().follow(
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\venv\lib\site-packages\scrapy\http\response\__init__.py", line 186, in follow
+    return Request(
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\venv\lib\site-packages\scrapy\http\request\__init__.py", line 113, in __init__
+    self._cb_kwargs = dict(cb_kwargs) if cb_kwargs else None
+ValueError: dictionary update sequence element #1 has length 18; 2 is required
+2023-02-08 14:59:14 [scrapy] ERROR: Spider error processing <GET https://www.nfl.com/teams/seattle-seahawks/roster> (referer: https://www.nfl.com/teams/)
+Traceback (most recent call last):
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\venv\lib\site-packages\scrapy\utils\defer.py", line 257, in iter_errback
+    yield next(it)
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\venv\lib\site-packages\scrapy\utils\python.py", line 312, in __next__
+    return next(self.data)
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\venv\lib\site-packages\scrapy\utils\python.py", line 312, in __next__
+    return next(self.data)
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\venv\lib\site-packages\scrapy\core\spidermw.py", line 104, in process_sync
+    for r in iterable:
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\venv\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 28, in <genexpr>
+    return (r for r in result or () if self._filter(r, spider))
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\venv\lib\site-packages\scrapy\core\spidermw.py", line 104, in process_sync
+    for r in iterable:
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\venv\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 353, in <genexpr>
+    return (self._set_referer(r, response) for r in result or ())
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\venv\lib\site-packages\scrapy\core\spidermw.py", line 104, in process_sync
+    for r in iterable:
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\venv\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 27, in <genexpr>
+    return (r for r in result or () if self._filter(r, spider))
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\venv\lib\site-packages\scrapy\core\spidermw.py", line 104, in process_sync
+    for r in iterable:
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\venv\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 31, in <genexpr>
+    return (r for r in result or () if self._filter(r, response, spider))
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\venv\lib\site-packages\scrapy\core\spidermw.py", line 104, in process_sync
+    for r in iterable:
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\NFLScrapy\NFLScrapy\spiders\Roster_scrapy.py", line 30, in parses_roster
+    yield response.follow(playersLink[i], callback=self.parses_player, cb_kwargs= {playerName , playerNumber, playerPosition, playerStatus, nameTeam})
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\venv\lib\site-packages\scrapy\http\response\text.py", line 186, in follow
+    return super().follow(
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\venv\lib\site-packages\scrapy\http\response\__init__.py", line 186, in follow
+    return Request(
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\venv\lib\site-packages\scrapy\http\request\__init__.py", line 113, in __init__
+    self._cb_kwargs = dict(cb_kwargs) if cb_kwargs else None
+ValueError: dictionary update sequence element #0 has length 15; 2 is required
+2023-02-08 14:59:14 [scrapy] ERROR: Spider error processing <GET https://www.nfl.com/teams/pittsburgh-steelers/roster> (referer: https://www.nfl.com/teams/)
+Traceback (most recent call last):
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\venv\lib\site-packages\scrapy\utils\defer.py", line 257, in iter_errback
+    yield next(it)
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\venv\lib\site-packages\scrapy\utils\python.py", line 312, in __next__
+    return next(self.data)
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\venv\lib\site-packages\scrapy\utils\python.py", line 312, in __next__
+    return next(self.data)
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\venv\lib\site-packages\scrapy\core\spidermw.py", line 104, in process_sync
+    for r in iterable:
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\venv\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 28, in <genexpr>
+    return (r for r in result or () if self._filter(r, spider))
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\venv\lib\site-packages\scrapy\core\spidermw.py", line 104, in process_sync
+    for r in iterable:
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\venv\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 353, in <genexpr>
+    return (self._set_referer(r, response) for r in result or ())
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\venv\lib\site-packages\scrapy\core\spidermw.py", line 104, in process_sync
+    for r in iterable:
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\venv\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 27, in <genexpr>
+    return (r for r in result or () if self._filter(r, spider))
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\venv\lib\site-packages\scrapy\core\spidermw.py", line 104, in process_sync
+    for r in iterable:
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\venv\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 31, in <genexpr>
+    return (r for r in result or () if self._filter(r, response, spider))
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\venv\lib\site-packages\scrapy\core\spidermw.py", line 104, in process_sync
+    for r in iterable:
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\NFLScrapy\NFLScrapy\spiders\Roster_scrapy.py", line 30, in parses_roster
+    yield response.follow(playersLink[i], callback=self.parses_player, cb_kwargs= {playerName , playerNumber, playerPosition, playerStatus, nameTeam})
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\venv\lib\site-packages\scrapy\http\response\text.py", line 186, in follow
+    return super().follow(
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\venv\lib\site-packages\scrapy\http\response\__init__.py", line 186, in follow
+    return Request(
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\venv\lib\site-packages\scrapy\http\request\__init__.py", line 113, in __init__
+    self._cb_kwargs = dict(cb_kwargs) if cb_kwargs else None
+ValueError: dictionary update sequence element #1 has length 12; 2 is required
+2023-02-08 14:59:14 [scrapy] ERROR: Spider error processing <GET https://www.nfl.com/teams/arizona-cardinals/roster> (referer: https://www.nfl.com/teams/)
+Traceback (most recent call last):
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\venv\lib\site-packages\scrapy\utils\defer.py", line 257, in iter_errback
+    yield next(it)
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\venv\lib\site-packages\scrapy\utils\python.py", line 312, in __next__
+    return next(self.data)
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\venv\lib\site-packages\scrapy\utils\python.py", line 312, in __next__
+    return next(self.data)
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\venv\lib\site-packages\scrapy\core\spidermw.py", line 104, in process_sync
+    for r in iterable:
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\venv\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 28, in <genexpr>
+    return (r for r in result or () if self._filter(r, spider))
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\venv\lib\site-packages\scrapy\core\spidermw.py", line 104, in process_sync
+    for r in iterable:
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\venv\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 353, in <genexpr>
+    return (self._set_referer(r, response) for r in result or ())
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\venv\lib\site-packages\scrapy\core\spidermw.py", line 104, in process_sync
+    for r in iterable:
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\venv\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 27, in <genexpr>
+    return (r for r in result or () if self._filter(r, spider))
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\venv\lib\site-packages\scrapy\core\spidermw.py", line 104, in process_sync
+    for r in iterable:
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\venv\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 31, in <genexpr>
+    return (r for r in result or () if self._filter(r, response, spider))
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\venv\lib\site-packages\scrapy\core\spidermw.py", line 104, in process_sync
+    for r in iterable:
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\NFLScrapy\NFLScrapy\spiders\Roster_scrapy.py", line 30, in parses_roster
+    yield response.follow(playersLink[i], callback=self.parses_player, cb_kwargs= {playerName , playerNumber, playerPosition, playerStatus, nameTeam})
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\venv\lib\site-packages\scrapy\http\response\text.py", line 186, in follow
+    return super().follow(
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\venv\lib\site-packages\scrapy\http\response\__init__.py", line 186, in follow
+    return Request(
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\venv\lib\site-packages\scrapy\http\request\__init__.py", line 113, in __init__
+    self._cb_kwargs = dict(cb_kwargs) if cb_kwargs else None
+ValueError: dictionary update sequence element #1 has length 10; 2 is required
+2023-02-08 14:59:14 [scrapy] ERROR: Spider error processing <GET https://www.nfl.com/teams/tennessee-titans/roster> (referer: https://www.nfl.com/teams/)
+Traceback (most recent call last):
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\venv\lib\site-packages\scrapy\utils\defer.py", line 257, in iter_errback
+    yield next(it)
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\venv\lib\site-packages\scrapy\utils\python.py", line 312, in __next__
+    return next(self.data)
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\venv\lib\site-packages\scrapy\utils\python.py", line 312, in __next__
+    return next(self.data)
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\venv\lib\site-packages\scrapy\core\spidermw.py", line 104, in process_sync
+    for r in iterable:
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\venv\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 28, in <genexpr>
+    return (r for r in result or () if self._filter(r, spider))
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\venv\lib\site-packages\scrapy\core\spidermw.py", line 104, in process_sync
+    for r in iterable:
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\venv\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 353, in <genexpr>
+    return (self._set_referer(r, response) for r in result or ())
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\venv\lib\site-packages\scrapy\core\spidermw.py", line 104, in process_sync
+    for r in iterable:
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\venv\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 27, in <genexpr>
+    return (r for r in result or () if self._filter(r, spider))
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\venv\lib\site-packages\scrapy\core\spidermw.py", line 104, in process_sync
+    for r in iterable:
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\venv\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 31, in <genexpr>
+    return (r for r in result or () if self._filter(r, response, spider))
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\venv\lib\site-packages\scrapy\core\spidermw.py", line 104, in process_sync
+    for r in iterable:
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\NFLScrapy\NFLScrapy\spiders\Roster_scrapy.py", line 30, in parses_roster
+    yield response.follow(playersLink[i], callback=self.parses_player, cb_kwargs= {playerName , playerNumber, playerPosition, playerStatus, nameTeam})
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\venv\lib\site-packages\scrapy\http\response\text.py", line 186, in follow
+    return super().follow(
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\venv\lib\site-packages\scrapy\http\response\__init__.py", line 186, in follow
+    return Request(
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\venv\lib\site-packages\scrapy\http\request\__init__.py", line 113, in __init__
+    self._cb_kwargs = dict(cb_kwargs) if cb_kwargs else None
+ValueError: dictionary update sequence element #0 has length 3; 2 is required
+2023-02-08 14:59:14 [scrapy] ERROR: Spider error processing <GET https://www.nfl.com/teams/miami-dolphins/roster> (referer: https://www.nfl.com/teams/)
+Traceback (most recent call last):
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\venv\lib\site-packages\scrapy\utils\defer.py", line 257, in iter_errback
+    yield next(it)
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\venv\lib\site-packages\scrapy\utils\python.py", line 312, in __next__
+    return next(self.data)
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\venv\lib\site-packages\scrapy\utils\python.py", line 312, in __next__
+    return next(self.data)
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\venv\lib\site-packages\scrapy\core\spidermw.py", line 104, in process_sync
+    for r in iterable:
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\venv\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 28, in <genexpr>
+    return (r for r in result or () if self._filter(r, spider))
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\venv\lib\site-packages\scrapy\core\spidermw.py", line 104, in process_sync
+    for r in iterable:
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\venv\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 353, in <genexpr>
+    return (self._set_referer(r, response) for r in result or ())
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\venv\lib\site-packages\scrapy\core\spidermw.py", line 104, in process_sync
+    for r in iterable:
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\venv\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 27, in <genexpr>
+    return (r for r in result or () if self._filter(r, spider))
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\venv\lib\site-packages\scrapy\core\spidermw.py", line 104, in process_sync
+    for r in iterable:
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\venv\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 31, in <genexpr>
+    return (r for r in result or () if self._filter(r, response, spider))
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\venv\lib\site-packages\scrapy\core\spidermw.py", line 104, in process_sync
+    for r in iterable:
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\NFLScrapy\NFLScrapy\spiders\Roster_scrapy.py", line 30, in parses_roster
+    yield response.follow(playersLink[i], callback=self.parses_player, cb_kwargs= {playerName , playerNumber, playerPosition, playerStatus, nameTeam})
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\venv\lib\site-packages\scrapy\http\response\text.py", line 186, in follow
+    return super().follow(
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\venv\lib\site-packages\scrapy\http\response\__init__.py", line 186, in follow
+    return Request(
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\venv\lib\site-packages\scrapy\http\request\__init__.py", line 113, in __init__
+    self._cb_kwargs = dict(cb_kwargs) if cb_kwargs else None
+ValueError: dictionary update sequence element #0 has length 14; 2 is required
+2023-02-08 14:59:14 [scrapy] ERROR: Spider error processing <GET https://www.nfl.com/teams/new-england-patriots/roster> (referer: https://www.nfl.com/teams/)
+Traceback (most recent call last):
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\venv\lib\site-packages\scrapy\utils\defer.py", line 257, in iter_errback
+    yield next(it)
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\venv\lib\site-packages\scrapy\utils\python.py", line 312, in __next__
+    return next(self.data)
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\venv\lib\site-packages\scrapy\utils\python.py", line 312, in __next__
+    return next(self.data)
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\venv\lib\site-packages\scrapy\core\spidermw.py", line 104, in process_sync
+    for r in iterable:
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\venv\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 28, in <genexpr>
+    return (r for r in result or () if self._filter(r, spider))
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\venv\lib\site-packages\scrapy\core\spidermw.py", line 104, in process_sync
+    for r in iterable:
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\venv\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 353, in <genexpr>
+    return (self._set_referer(r, response) for r in result or ())
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\venv\lib\site-packages\scrapy\core\spidermw.py", line 104, in process_sync
+    for r in iterable:
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\venv\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 27, in <genexpr>
+    return (r for r in result or () if self._filter(r, spider))
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\venv\lib\site-packages\scrapy\core\spidermw.py", line 104, in process_sync
+    for r in iterable:
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\venv\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 31, in <genexpr>
+    return (r for r in result or () if self._filter(r, response, spider))
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\venv\lib\site-packages\scrapy\core\spidermw.py", line 104, in process_sync
+    for r in iterable:
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\NFLScrapy\NFLScrapy\spiders\Roster_scrapy.py", line 30, in parses_roster
+    yield response.follow(playersLink[i], callback=self.parses_player, cb_kwargs= {playerName , playerNumber, playerPosition, playerStatus, nameTeam})
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\venv\lib\site-packages\scrapy\http\response\text.py", line 186, in follow
+    return super().follow(
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\venv\lib\site-packages\scrapy\http\response\__init__.py", line 186, in follow
+    return Request(
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\venv\lib\site-packages\scrapy\http\request\__init__.py", line 113, in __init__
+    self._cb_kwargs = dict(cb_kwargs) if cb_kwargs else None
+ValueError: dictionary update sequence element #0 has length 20; 2 is required
+2023-02-08 14:59:14 [scrapy] ERROR: Spider error processing <GET https://www.nfl.com/teams/las-vegas-raiders/roster> (referer: https://www.nfl.com/teams/)
+Traceback (most recent call last):
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\venv\lib\site-packages\scrapy\utils\defer.py", line 257, in iter_errback
+    yield next(it)
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\venv\lib\site-packages\scrapy\utils\python.py", line 312, in __next__
+    return next(self.data)
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\venv\lib\site-packages\scrapy\utils\python.py", line 312, in __next__
+    return next(self.data)
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\venv\lib\site-packages\scrapy\core\spidermw.py", line 104, in process_sync
+    for r in iterable:
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\venv\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 28, in <genexpr>
+    return (r for r in result or () if self._filter(r, spider))
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\venv\lib\site-packages\scrapy\core\spidermw.py", line 104, in process_sync
+    for r in iterable:
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\venv\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 353, in <genexpr>
+    return (self._set_referer(r, response) for r in result or ())
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\venv\lib\site-packages\scrapy\core\spidermw.py", line 104, in process_sync
+    for r in iterable:
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\venv\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 27, in <genexpr>
+    return (r for r in result or () if self._filter(r, spider))
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\venv\lib\site-packages\scrapy\core\spidermw.py", line 104, in process_sync
+    for r in iterable:
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\venv\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 31, in <genexpr>
+    return (r for r in result or () if self._filter(r, response, spider))
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\venv\lib\site-packages\scrapy\core\spidermw.py", line 104, in process_sync
+    for r in iterable:
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\NFLScrapy\NFLScrapy\spiders\Roster_scrapy.py", line 30, in parses_roster
+    yield response.follow(playersLink[i], callback=self.parses_player, cb_kwargs= {playerName , playerNumber, playerPosition, playerStatus, nameTeam})
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\venv\lib\site-packages\scrapy\http\response\text.py", line 186, in follow
+    return super().follow(
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\venv\lib\site-packages\scrapy\http\response\__init__.py", line 186, in follow
+    return Request(
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\venv\lib\site-packages\scrapy\http\request\__init__.py", line 113, in __init__
+    self._cb_kwargs = dict(cb_kwargs) if cb_kwargs else None
+ValueError: dictionary update sequence element #1 has length 14; 2 is required
+2023-02-08 14:59:14 [scrapy] ERROR: Spider error processing <GET https://www.nfl.com/teams/los-angeles-chargers/roster> (referer: https://www.nfl.com/teams/)
+Traceback (most recent call last):
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\venv\lib\site-packages\scrapy\utils\defer.py", line 257, in iter_errback
+    yield next(it)
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\venv\lib\site-packages\scrapy\utils\python.py", line 312, in __next__
+    return next(self.data)
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\venv\lib\site-packages\scrapy\utils\python.py", line 312, in __next__
+    return next(self.data)
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\venv\lib\site-packages\scrapy\core\spidermw.py", line 104, in process_sync
+    for r in iterable:
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\venv\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 28, in <genexpr>
+    return (r for r in result or () if self._filter(r, spider))
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\venv\lib\site-packages\scrapy\core\spidermw.py", line 104, in process_sync
+    for r in iterable:
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\venv\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 353, in <genexpr>
+    return (self._set_referer(r, response) for r in result or ())
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\venv\lib\site-packages\scrapy\core\spidermw.py", line 104, in process_sync
+    for r in iterable:
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\venv\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 27, in <genexpr>
+    return (r for r in result or () if self._filter(r, spider))
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\venv\lib\site-packages\scrapy\core\spidermw.py", line 104, in process_sync
+    for r in iterable:
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\venv\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 31, in <genexpr>
+    return (r for r in result or () if self._filter(r, response, spider))
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\venv\lib\site-packages\scrapy\core\spidermw.py", line 104, in process_sync
+    for r in iterable:
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\NFLScrapy\NFLScrapy\spiders\Roster_scrapy.py", line 30, in parses_roster
+    yield response.follow(playersLink[i], callback=self.parses_player, cb_kwargs= {playerName , playerNumber, playerPosition, playerStatus, nameTeam})
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\venv\lib\site-packages\scrapy\http\response\text.py", line 186, in follow
+    return super().follow(
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\venv\lib\site-packages\scrapy\http\response\__init__.py", line 186, in follow
+    return Request(
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\venv\lib\site-packages\scrapy\http\request\__init__.py", line 113, in __init__
+    self._cb_kwargs = dict(cb_kwargs) if cb_kwargs else None
+ValueError: dictionary update sequence element #2 has length 20; 2 is required
+2023-02-08 14:59:14 [scrapy] ERROR: Spider error processing <GET https://www.nfl.com/teams/kansas-city-chiefs/roster> (referer: https://www.nfl.com/teams/)
+Traceback (most recent call last):
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\venv\lib\site-packages\scrapy\utils\defer.py", line 257, in iter_errback
+    yield next(it)
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\venv\lib\site-packages\scrapy\utils\python.py", line 312, in __next__
+    return next(self.data)
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\venv\lib\site-packages\scrapy\utils\python.py", line 312, in __next__
+    return next(self.data)
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\venv\lib\site-packages\scrapy\core\spidermw.py", line 104, in process_sync
+    for r in iterable:
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\venv\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 28, in <genexpr>
+    return (r for r in result or () if self._filter(r, spider))
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\venv\lib\site-packages\scrapy\core\spidermw.py", line 104, in process_sync
+    for r in iterable:
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\venv\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 353, in <genexpr>
+    return (self._set_referer(r, response) for r in result or ())
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\venv\lib\site-packages\scrapy\core\spidermw.py", line 104, in process_sync
+    for r in iterable:
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\venv\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 27, in <genexpr>
+    return (r for r in result or () if self._filter(r, spider))
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\venv\lib\site-packages\scrapy\core\spidermw.py", line 104, in process_sync
+    for r in iterable:
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\venv\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 31, in <genexpr>
+    return (r for r in result or () if self._filter(r, response, spider))
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\venv\lib\site-packages\scrapy\core\spidermw.py", line 104, in process_sync
+    for r in iterable:
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\NFLScrapy\NFLScrapy\spiders\Roster_scrapy.py", line 30, in parses_roster
+    yield response.follow(playersLink[i], callback=self.parses_player, cb_kwargs= {playerName , playerNumber, playerPosition, playerStatus, nameTeam})
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\venv\lib\site-packages\scrapy\http\response\text.py", line 186, in follow
+    return super().follow(
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\venv\lib\site-packages\scrapy\http\response\__init__.py", line 186, in follow
+    return Request(
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\venv\lib\site-packages\scrapy\http\request\__init__.py", line 113, in __init__
+    self._cb_kwargs = dict(cb_kwargs) if cb_kwargs else None
+ValueError: dictionary update sequence element #1 has length 18; 2 is required
+2023-02-08 14:59:14 [scrapy] DEBUG: Redirecting (301) to <GET https://www.nfl.com/teams/cincinnati-bengals/roster> from <GET https://www.nfl.com/teams/cincinnati-bengals//roster>
+2023-02-08 14:59:14 [scrapy] DEBUG: Crawled (200) <GET https://www.nfl.com/teams/houston-texans/roster> (referer: https://www.nfl.com/teams/)
+2023-02-08 14:59:14 [scrapy] DEBUG: Crawled (200) <GET https://www.nfl.com/teams/indianapolis-colts/roster> (referer: https://www.nfl.com/teams/)
+2023-02-08 14:59:14 [scrapy] DEBUG: Crawled (200) <GET https://www.nfl.com/teams/san-francisco-49ers/roster> (referer: https://www.nfl.com/teams/)
+2023-02-08 14:59:14 [scrapy] ERROR: Spider error processing <GET https://www.nfl.com/teams/houston-texans/roster> (referer: https://www.nfl.com/teams/)
+Traceback (most recent call last):
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\venv\lib\site-packages\scrapy\utils\defer.py", line 257, in iter_errback
+    yield next(it)
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\venv\lib\site-packages\scrapy\utils\python.py", line 312, in __next__
+    return next(self.data)
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\venv\lib\site-packages\scrapy\utils\python.py", line 312, in __next__
+    return next(self.data)
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\venv\lib\site-packages\scrapy\core\spidermw.py", line 104, in process_sync
+    for r in iterable:
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\venv\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 28, in <genexpr>
+    return (r for r in result or () if self._filter(r, spider))
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\venv\lib\site-packages\scrapy\core\spidermw.py", line 104, in process_sync
+    for r in iterable:
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\venv\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 353, in <genexpr>
+    return (self._set_referer(r, response) for r in result or ())
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\venv\lib\site-packages\scrapy\core\spidermw.py", line 104, in process_sync
+    for r in iterable:
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\venv\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 27, in <genexpr>
+    return (r for r in result or () if self._filter(r, spider))
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\venv\lib\site-packages\scrapy\core\spidermw.py", line 104, in process_sync
+    for r in iterable:
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\venv\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 31, in <genexpr>
+    return (r for r in result or () if self._filter(r, response, spider))
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\venv\lib\site-packages\scrapy\core\spidermw.py", line 104, in process_sync
+    for r in iterable:
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\NFLScrapy\NFLScrapy\spiders\Roster_scrapy.py", line 30, in parses_roster
+    yield response.follow(playersLink[i], callback=self.parses_player, cb_kwargs= {playerName , playerNumber, playerPosition, playerStatus, nameTeam})
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\venv\lib\site-packages\scrapy\http\response\text.py", line 186, in follow
+    return super().follow(
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\venv\lib\site-packages\scrapy\http\response\__init__.py", line 186, in follow
+    return Request(
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\venv\lib\site-packages\scrapy\http\request\__init__.py", line 113, in __init__
+    self._cb_kwargs = dict(cb_kwargs) if cb_kwargs else None
+ValueError: dictionary update sequence element #1 has length 14; 2 is required
+2023-02-08 14:59:14 [scrapy] ERROR: Spider error processing <GET https://www.nfl.com/teams/indianapolis-colts/roster> (referer: https://www.nfl.com/teams/)
+Traceback (most recent call last):
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\venv\lib\site-packages\scrapy\utils\defer.py", line 257, in iter_errback
+    yield next(it)
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\venv\lib\site-packages\scrapy\utils\python.py", line 312, in __next__
+    return next(self.data)
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\venv\lib\site-packages\scrapy\utils\python.py", line 312, in __next__
+    return next(self.data)
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\venv\lib\site-packages\scrapy\core\spidermw.py", line 104, in process_sync
+    for r in iterable:
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\venv\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 28, in <genexpr>
+    return (r for r in result or () if self._filter(r, spider))
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\venv\lib\site-packages\scrapy\core\spidermw.py", line 104, in process_sync
+    for r in iterable:
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\venv\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 353, in <genexpr>
+    return (self._set_referer(r, response) for r in result or ())
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\venv\lib\site-packages\scrapy\core\spidermw.py", line 104, in process_sync
+    for r in iterable:
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\venv\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 27, in <genexpr>
+    return (r for r in result or () if self._filter(r, spider))
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\venv\lib\site-packages\scrapy\core\spidermw.py", line 104, in process_sync
+    for r in iterable:
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\venv\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 31, in <genexpr>
+    return (r for r in result or () if self._filter(r, response, spider))
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\venv\lib\site-packages\scrapy\core\spidermw.py", line 104, in process_sync
+    for r in iterable:
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\NFLScrapy\NFLScrapy\spiders\Roster_scrapy.py", line 30, in parses_roster
+    yield response.follow(playersLink[i], callback=self.parses_player, cb_kwargs= {playerName , playerNumber, playerPosition, playerStatus, nameTeam})
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\venv\lib\site-packages\scrapy\http\response\text.py", line 186, in follow
+    return super().follow(
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\venv\lib\site-packages\scrapy\http\response\__init__.py", line 186, in follow
+    return Request(
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\venv\lib\site-packages\scrapy\http\request\__init__.py", line 113, in __init__
+    self._cb_kwargs = dict(cb_kwargs) if cb_kwargs else None
+ValueError: dictionary update sequence element #1 has length 18; 2 is required
+2023-02-08 14:59:14 [scrapy] ERROR: Spider error processing <GET https://www.nfl.com/teams/san-francisco-49ers/roster> (referer: https://www.nfl.com/teams/)
+Traceback (most recent call last):
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\venv\lib\site-packages\scrapy\utils\defer.py", line 257, in iter_errback
+    yield next(it)
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\venv\lib\site-packages\scrapy\utils\python.py", line 312, in __next__
+    return next(self.data)
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\venv\lib\site-packages\scrapy\utils\python.py", line 312, in __next__
+    return next(self.data)
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\venv\lib\site-packages\scrapy\core\spidermw.py", line 104, in process_sync
+    for r in iterable:
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\venv\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 28, in <genexpr>
+    return (r for r in result or () if self._filter(r, spider))
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\venv\lib\site-packages\scrapy\core\spidermw.py", line 104, in process_sync
+    for r in iterable:
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\venv\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 353, in <genexpr>
+    return (self._set_referer(r, response) for r in result or ())
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\venv\lib\site-packages\scrapy\core\spidermw.py", line 104, in process_sync
+    for r in iterable:
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\venv\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 27, in <genexpr>
+    return (r for r in result or () if self._filter(r, spider))
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\venv\lib\site-packages\scrapy\core\spidermw.py", line 104, in process_sync
+    for r in iterable:
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\venv\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 31, in <genexpr>
+    return (r for r in result or () if self._filter(r, response, spider))
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\venv\lib\site-packages\scrapy\core\spidermw.py", line 104, in process_sync
+    for r in iterable:
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\NFLScrapy\NFLScrapy\spiders\Roster_scrapy.py", line 30, in parses_roster
+    yield response.follow(playersLink[i], callback=self.parses_player, cb_kwargs= {playerName , playerNumber, playerPosition, playerStatus, nameTeam})
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\venv\lib\site-packages\scrapy\http\response\text.py", line 186, in follow
+    return super().follow(
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\venv\lib\site-packages\scrapy\http\response\__init__.py", line 186, in follow
+    return Request(
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\venv\lib\site-packages\scrapy\http\request\__init__.py", line 113, in __init__
+    self._cb_kwargs = dict(cb_kwargs) if cb_kwargs else None
+ValueError: dictionary update sequence element #1 has length 19; 2 is required
+2023-02-08 14:59:15 [scrapy] DEBUG: Crawled (200) <GET https://www.nfl.com/teams/cleveland-browns/roster> (referer: https://www.nfl.com/teams/)
+2023-02-08 14:59:15 [scrapy] ERROR: Spider error processing <GET https://www.nfl.com/teams/cleveland-browns/roster> (referer: https://www.nfl.com/teams/)
+Traceback (most recent call last):
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\venv\lib\site-packages\scrapy\utils\defer.py", line 257, in iter_errback
+    yield next(it)
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\venv\lib\site-packages\scrapy\utils\python.py", line 312, in __next__
+    return next(self.data)
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\venv\lib\site-packages\scrapy\utils\python.py", line 312, in __next__
+    return next(self.data)
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\venv\lib\site-packages\scrapy\core\spidermw.py", line 104, in process_sync
+    for r in iterable:
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\venv\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 28, in <genexpr>
+    return (r for r in result or () if self._filter(r, spider))
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\venv\lib\site-packages\scrapy\core\spidermw.py", line 104, in process_sync
+    for r in iterable:
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\venv\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 353, in <genexpr>
+    return (self._set_referer(r, response) for r in result or ())
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\venv\lib\site-packages\scrapy\core\spidermw.py", line 104, in process_sync
+    for r in iterable:
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\venv\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 27, in <genexpr>
+    return (r for r in result or () if self._filter(r, spider))
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\venv\lib\site-packages\scrapy\core\spidermw.py", line 104, in process_sync
+    for r in iterable:
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\venv\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 31, in <genexpr>
+    return (r for r in result or () if self._filter(r, response, spider))
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\venv\lib\site-packages\scrapy\core\spidermw.py", line 104, in process_sync
+    for r in iterable:
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\NFLScrapy\NFLScrapy\spiders\Roster_scrapy.py", line 30, in parses_roster
+    yield response.follow(playersLink[i], callback=self.parses_player, cb_kwargs= {playerName , playerNumber, playerPosition, playerStatus, nameTeam})
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\venv\lib\site-packages\scrapy\http\response\text.py", line 186, in follow
+    return super().follow(
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\venv\lib\site-packages\scrapy\http\response\__init__.py", line 186, in follow
+    return Request(
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\venv\lib\site-packages\scrapy\http\request\__init__.py", line 113, in __init__
+    self._cb_kwargs = dict(cb_kwargs) if cb_kwargs else None
+ValueError: dictionary update sequence element #0 has length 16; 2 is required
+2023-02-08 14:59:15 [scrapy] DEBUG: Crawled (200) <GET https://www.nfl.com/teams/cincinnati-bengals/roster> (referer: https://www.nfl.com/teams/)
+2023-02-08 14:59:15 [scrapy] ERROR: Spider error processing <GET https://www.nfl.com/teams/cincinnati-bengals/roster> (referer: https://www.nfl.com/teams/)
+Traceback (most recent call last):
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\venv\lib\site-packages\scrapy\utils\defer.py", line 257, in iter_errback
+    yield next(it)
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\venv\lib\site-packages\scrapy\utils\python.py", line 312, in __next__
+    return next(self.data)
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\venv\lib\site-packages\scrapy\utils\python.py", line 312, in __next__
+    return next(self.data)
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\venv\lib\site-packages\scrapy\core\spidermw.py", line 104, in process_sync
+    for r in iterable:
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\venv\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 28, in <genexpr>
+    return (r for r in result or () if self._filter(r, spider))
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\venv\lib\site-packages\scrapy\core\spidermw.py", line 104, in process_sync
+    for r in iterable:
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\venv\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 353, in <genexpr>
+    return (self._set_referer(r, response) for r in result or ())
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\venv\lib\site-packages\scrapy\core\spidermw.py", line 104, in process_sync
+    for r in iterable:
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\venv\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 27, in <genexpr>
+    return (r for r in result or () if self._filter(r, spider))
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\venv\lib\site-packages\scrapy\core\spidermw.py", line 104, in process_sync
+    for r in iterable:
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\venv\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 31, in <genexpr>
+    return (r for r in result or () if self._filter(r, response, spider))
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\venv\lib\site-packages\scrapy\core\spidermw.py", line 104, in process_sync
+    for r in iterable:
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\NFLScrapy\NFLScrapy\spiders\Roster_scrapy.py", line 30, in parses_roster
+    yield response.follow(playersLink[i], callback=self.parses_player, cb_kwargs= {playerName , playerNumber, playerPosition, playerStatus, nameTeam})
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\venv\lib\site-packages\scrapy\http\response\text.py", line 186, in follow
+    return super().follow(
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\venv\lib\site-packages\scrapy\http\response\__init__.py", line 186, in follow
+    return Request(
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\venv\lib\site-packages\scrapy\http\request\__init__.py", line 113, in __init__
+    self._cb_kwargs = dict(cb_kwargs) if cb_kwargs else None
+ValueError: dictionary update sequence element #1 has length 18; 2 is required
+2023-02-08 14:59:15 [scrapy] DEBUG: Crawled (200) <GET https://www.nfl.com/teams/buffalo-bills/roster> (referer: https://www.nfl.com/teams/)
+2023-02-08 14:59:16 [scrapy] ERROR: Spider error processing <GET https://www.nfl.com/teams/buffalo-bills/roster> (referer: https://www.nfl.com/teams/)
+Traceback (most recent call last):
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\venv\lib\site-packages\scrapy\utils\defer.py", line 257, in iter_errback
+    yield next(it)
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\venv\lib\site-packages\scrapy\utils\python.py", line 312, in __next__
+    return next(self.data)
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\venv\lib\site-packages\scrapy\utils\python.py", line 312, in __next__
+    return next(self.data)
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\venv\lib\site-packages\scrapy\core\spidermw.py", line 104, in process_sync
+    for r in iterable:
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\venv\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 28, in <genexpr>
+    return (r for r in result or () if self._filter(r, spider))
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\venv\lib\site-packages\scrapy\core\spidermw.py", line 104, in process_sync
+    for r in iterable:
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\venv\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 353, in <genexpr>
+    return (self._set_referer(r, response) for r in result or ())
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\venv\lib\site-packages\scrapy\core\spidermw.py", line 104, in process_sync
+    for r in iterable:
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\venv\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 27, in <genexpr>
+    return (r for r in result or () if self._filter(r, spider))
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\venv\lib\site-packages\scrapy\core\spidermw.py", line 104, in process_sync
+    for r in iterable:
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\venv\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 31, in <genexpr>
+    return (r for r in result or () if self._filter(r, response, spider))
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\venv\lib\site-packages\scrapy\core\spidermw.py", line 104, in process_sync
+    for r in iterable:
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\NFLScrapy\NFLScrapy\spiders\Roster_scrapy.py", line 30, in parses_roster
+    yield response.follow(playersLink[i], callback=self.parses_player, cb_kwargs= {playerName , playerNumber, playerPosition, playerStatus, nameTeam})
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\venv\lib\site-packages\scrapy\http\response\text.py", line 186, in follow
+    return super().follow(
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\venv\lib\site-packages\scrapy\http\response\__init__.py", line 186, in follow
+    return Request(
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\venv\lib\site-packages\scrapy\http\request\__init__.py", line 113, in __init__
+    self._cb_kwargs = dict(cb_kwargs) if cb_kwargs else None
+ValueError: dictionary update sequence element #0 has length 13; 2 is required
+2023-02-08 14:59:16 [scrapy] DEBUG: Crawled (200) <GET https://www.nfl.com/teams/baltimore-ravens/roster> (referer: https://www.nfl.com/teams/)
+2023-02-08 14:59:16 [scrapy] DEBUG: Crawled (200) <GET https://www.nfl.com/teams/jacksonville-jaguars/roster> (referer: https://www.nfl.com/teams/)
+2023-02-08 14:59:16 [scrapy] ERROR: Spider error processing <GET https://www.nfl.com/teams/baltimore-ravens/roster> (referer: https://www.nfl.com/teams/)
+Traceback (most recent call last):
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\venv\lib\site-packages\scrapy\utils\defer.py", line 257, in iter_errback
+    yield next(it)
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\venv\lib\site-packages\scrapy\utils\python.py", line 312, in __next__
+    return next(self.data)
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\venv\lib\site-packages\scrapy\utils\python.py", line 312, in __next__
+    return next(self.data)
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\venv\lib\site-packages\scrapy\core\spidermw.py", line 104, in process_sync
+    for r in iterable:
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\venv\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 28, in <genexpr>
+    return (r for r in result or () if self._filter(r, spider))
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\venv\lib\site-packages\scrapy\core\spidermw.py", line 104, in process_sync
+    for r in iterable:
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\venv\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 353, in <genexpr>
+    return (self._set_referer(r, response) for r in result or ())
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\venv\lib\site-packages\scrapy\core\spidermw.py", line 104, in process_sync
+    for r in iterable:
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\venv\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 27, in <genexpr>
+    return (r for r in result or () if self._filter(r, spider))
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\venv\lib\site-packages\scrapy\core\spidermw.py", line 104, in process_sync
+    for r in iterable:
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\venv\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 31, in <genexpr>
+    return (r for r in result or () if self._filter(r, response, spider))
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\venv\lib\site-packages\scrapy\core\spidermw.py", line 104, in process_sync
+    for r in iterable:
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\NFLScrapy\NFLScrapy\spiders\Roster_scrapy.py", line 30, in parses_roster
+    yield response.follow(playersLink[i], callback=self.parses_player, cb_kwargs= {playerName , playerNumber, playerPosition, playerStatus, nameTeam})
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\venv\lib\site-packages\scrapy\http\response\text.py", line 186, in follow
+    return super().follow(
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\venv\lib\site-packages\scrapy\http\response\__init__.py", line 186, in follow
+    return Request(
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\venv\lib\site-packages\scrapy\http\request\__init__.py", line 113, in __init__
+    self._cb_kwargs = dict(cb_kwargs) if cb_kwargs else None
+ValueError: dictionary update sequence element #2 has length 12; 2 is required
+2023-02-08 14:59:16 [scrapy] ERROR: Spider error processing <GET https://www.nfl.com/teams/jacksonville-jaguars/roster> (referer: https://www.nfl.com/teams/)
+Traceback (most recent call last):
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\venv\lib\site-packages\scrapy\utils\defer.py", line 257, in iter_errback
+    yield next(it)
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\venv\lib\site-packages\scrapy\utils\python.py", line 312, in __next__
+    return next(self.data)
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\venv\lib\site-packages\scrapy\utils\python.py", line 312, in __next__
+    return next(self.data)
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\venv\lib\site-packages\scrapy\core\spidermw.py", line 104, in process_sync
+    for r in iterable:
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\venv\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 28, in <genexpr>
+    return (r for r in result or () if self._filter(r, spider))
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\venv\lib\site-packages\scrapy\core\spidermw.py", line 104, in process_sync
+    for r in iterable:
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\venv\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 353, in <genexpr>
+    return (self._set_referer(r, response) for r in result or ())
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\venv\lib\site-packages\scrapy\core\spidermw.py", line 104, in process_sync
+    for r in iterable:
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\venv\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 27, in <genexpr>
+    return (r for r in result or () if self._filter(r, spider))
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\venv\lib\site-packages\scrapy\core\spidermw.py", line 104, in process_sync
+    for r in iterable:
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\venv\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 31, in <genexpr>
+    return (r for r in result or () if self._filter(r, response, spider))
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\venv\lib\site-packages\scrapy\core\spidermw.py", line 104, in process_sync
+    for r in iterable:
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\NFLScrapy\NFLScrapy\spiders\Roster_scrapy.py", line 30, in parses_roster
+    yield response.follow(playersLink[i], callback=self.parses_player, cb_kwargs= {playerName , playerNumber, playerPosition, playerStatus, nameTeam})
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\venv\lib\site-packages\scrapy\http\response\text.py", line 186, in follow
+    return super().follow(
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\venv\lib\site-packages\scrapy\http\response\__init__.py", line 186, in follow
+    return Request(
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\venv\lib\site-packages\scrapy\http\request\__init__.py", line 113, in __init__
+    self._cb_kwargs = dict(cb_kwargs) if cb_kwargs else None
+ValueError: dictionary update sequence element #1 has length 3; 2 is required
+2023-02-08 14:59:16 [scrapy] DEBUG: Crawled (200) <GET https://www.nfl.com/teams/denver-broncos/roster> (referer: https://www.nfl.com/teams/)
+2023-02-08 14:59:16 [scrapy] ERROR: Spider error processing <GET https://www.nfl.com/teams/denver-broncos/roster> (referer: https://www.nfl.com/teams/)
+Traceback (most recent call last):
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\venv\lib\site-packages\scrapy\utils\defer.py", line 257, in iter_errback
+    yield next(it)
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\venv\lib\site-packages\scrapy\utils\python.py", line 312, in __next__
+    return next(self.data)
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\venv\lib\site-packages\scrapy\utils\python.py", line 312, in __next__
+    return next(self.data)
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\venv\lib\site-packages\scrapy\core\spidermw.py", line 104, in process_sync
+    for r in iterable:
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\venv\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 28, in <genexpr>
+    return (r for r in result or () if self._filter(r, spider))
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\venv\lib\site-packages\scrapy\core\spidermw.py", line 104, in process_sync
+    for r in iterable:
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\venv\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 353, in <genexpr>
+    return (self._set_referer(r, response) for r in result or ())
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\venv\lib\site-packages\scrapy\core\spidermw.py", line 104, in process_sync
+    for r in iterable:
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\venv\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 27, in <genexpr>
+    return (r for r in result or () if self._filter(r, spider))
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\venv\lib\site-packages\scrapy\core\spidermw.py", line 104, in process_sync
+    for r in iterable:
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\venv\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 31, in <genexpr>
+    return (r for r in result or () if self._filter(r, response, spider))
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\venv\lib\site-packages\scrapy\core\spidermw.py", line 104, in process_sync
+    for r in iterable:
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\NFLScrapy\NFLScrapy\spiders\Roster_scrapy.py", line 30, in parses_roster
+    yield response.follow(playersLink[i], callback=self.parses_player, cb_kwargs= {playerName , playerNumber, playerPosition, playerStatus, nameTeam})
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\venv\lib\site-packages\scrapy\http\response\text.py", line 186, in follow
+    return super().follow(
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\venv\lib\site-packages\scrapy\http\response\__init__.py", line 186, in follow
+    return Request(
+  File "C:\Users\Usuario\Desktop\capacitacion\NFL-project\NFL-scrapy\venv\lib\site-packages\scrapy\http\request\__init__.py", line 113, in __init__
+    self._cb_kwargs = dict(cb_kwargs) if cb_kwargs else None
+ValueError: dictionary update sequence element #0 has length 13; 2 is required
+2023-02-08 14:59:16 [scrapy] INFO: Closing spider (finished)
+2023-02-08 14:59:16 [scrapy] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 15764,
+ 'downloader/request_count': 64,
+ 'downloader/request_method_count/GET': 64,
+ 'downloader/response_bytes': 2194043,
+ 'downloader/response_count': 64,
+ 'downloader/response_status_count/200': 34,
+ 'downloader/response_status_count/301': 30,
+ 'elapsed_time_seconds': 2.912194,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2023, 2, 8, 17, 59, 16, 471518),
+ 'httpcompression/response_bytes': 12229950,
+ 'httpcompression/response_count': 34,
+ 'log_count/DEBUG': 64,
+ 'log_count/ERROR': 32,
+ 'log_count/INFO': 7,
+ 'log_count/WARNING': 2,
+ 'request_depth_max': 1,
+ 'response_received_count': 34,
+ 'robotstxt/request_count': 1,
+ 'robotstxt/response_count': 1,
+ 'robotstxt/response_status_count/200': 1,
+ 'scheduler/dequeued': 63,
+ 'scheduler/dequeued/memory': 63,
+ 'scheduler/enqueued': 63,
+ 'scheduler/enqueued/memory': 63,
+ 'spider_exceptions/ValueError': 32,
+ 'start_time': datetime.datetime(2023, 2, 8, 17, 59, 13, 559324)}
+2023-02-08 14:59:16 [scrapy] INFO: Spider closed (finished)
