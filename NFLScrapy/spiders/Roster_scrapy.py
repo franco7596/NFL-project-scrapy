@@ -14,6 +14,7 @@ class Roster_NFL_spider(scrapy.Spider):
         NamesTeam = response.xpath(
             '//div[@class="d3-o-media-object__body nfl-c-custom-promo__body"]//p/text()').getall()
         counter = 0
+        # yield response.follow(links[0]+'/roster', callback=self.parses_roster, cb_kwargs= {'nameTeam' : NamesTeam[counter]})
         for linkTeam in links:
             yield response.follow(linkTeam+'/roster', callback=self.parses_roster, cb_kwargs= {'nameTeam' : NamesTeam[counter]})
             counter += 1
@@ -27,7 +28,7 @@ class Roster_NFL_spider(scrapy.Spider):
             playerNumber = response.xpath(f'(//tr/td[2]/text())[{i+1}]').get() or ''
             playerPosition = response.xpath(f'(//tr/td[3]/text())[{i+1}]').get() or ''
             playerStatus = response.xpath(f'(//tr/td[4]/text())[{i+1}]').get() or ''
-            playerImage = response.xpath(f'(//td//img[@class="img-responsive/@src"])[{i+1}]').get() or None
+            playerImage = response.xpath(f'(//td//img[@class="img-responsive"]/@src)[{i+1}]').get() or None
             yield response.follow(playersLink[i], callback=self.parses_player, cb_kwargs= {'playerName':playerName , 'playerNumber':playerNumber, 'playerPosition':playerPosition, 'playerStatus':playerStatus,'playerImage':playerImage, 'nameTeam':nameTeam})
 
 
@@ -41,14 +42,14 @@ class Roster_NFL_spider(scrapy.Spider):
         playerImage = ""
         if(playerImageLazy):
             playerImage = playerImageLazy.replace('/t_lazy','')
-        playerHeight = response.xpath('(//div[@class="nfl-c-player-info__value"]/text())[1]').get() or ''
-        playerWeight = response.xpath('(//div[@class="nfl-c-player-info__value"]/text())[2]').get() or ''
-        playerArms = response.xpath('(//div[@class="nfl-c-player-info__value"]/text())[3]').get() or ''
-        playerHands = response.xpath('(//div[@class="nfl-c-player-info__value"]/text())[4]').get() or ''
-        playerExperience = response.xpath('(//div[@class="nfl-c-player-info__value"]/text())[5]').get() or ''
-        playerCollege = response.xpath('(//div[@class="nfl-c-player-info__value"]/text())[6]').get() or ''
-        playerAge = response.xpath('(//div[@class="nfl-c-player-info__value"]/text())[7]').get() or ''
-        playerHometown = response.xpath('(//div[@class="nfl-c-player-info__value"]/text())[8]').get() or ''
+        playerHeight = response.xpath('//div[@class="nfl-c-player-info__key" and contains(.,"Height")]/following-sibling::div/text()').get() or ''
+        playerWeight = response.xpath('//div[@class="nfl-c-player-info__key" and contains(.,"Weight")]/following-sibling::div/text()').get() or ''
+        playerArms = response.xpath('//div[@class="nfl-c-player-info__key" and contains(.,"Arms")]/following-sibling::div/text()').get() or ''
+        playerHands = response.xpath('//div[@class="nfl-c-player-info__key" and contains(.,"Hands")]/following-sibling::div/text()').get() or ''
+        playerExperience = response.xpath('//div[@class="nfl-c-player-info__key" and contains(.,"Experience")]/following-sibling::div/text()').get() or ''
+        playerCollege = response.xpath('//div[@class="nfl-c-player-info__key" and contains(.,"College")]/following-sibling::div/text()').get() or ''
+        playerAge = response.xpath('//div[@class="nfl-c-player-info__key" and contains(.,"Age")]/following-sibling::div/text()').get() or ''
+        playerHometown = response.xpath('//div[@class="nfl-c-player-info__key" and contains(.,"Hometown")]/following-sibling::div/text()').get() or ''
 
         player = ScrapyPlayer()
         player['nameTeam'] = nameTeam
