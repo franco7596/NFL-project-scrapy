@@ -9,7 +9,8 @@ You can check out my project on GitHub, where you'll find all the code for the a
 
 ## Video
 
-![NFL_AdobeExpress](https://user-images.githubusercontent.com/54074366/235224230-18f3e71f-07ae-4c24-a48c-48c7a439d8a8.gif)
+![NFL_AdobeExpress](https://user-images.githubusercontent.com/54074366/235224509-2cc384da-664d-4495-86e6-eaac4e5e4d26.gif)
+
 
 
 ## Running this project.
