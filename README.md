@@ -27,7 +27,9 @@ You can check out my project on GitHub, where you'll find all the code for the a
 
 > $ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY Cloning into Spoon-Knife... remote: Counting objects: 10, done. remote: Compressing objects: 100% (8/8), done. remove: Total 10 (delta 1), reused 10 (delta 1) Unpacking objects: 100% (10/10), done.
 
-- Install all necessary dependencies inside the project directory using npm install.
+- Install all necessary dependencies inside the project directory using pip install requirements.txt.
+
+- Finally, start the project with scrapyrt.
 
 ## The link to the webpage.:
 
